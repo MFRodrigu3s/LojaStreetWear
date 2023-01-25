@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* CABEÇALHO */
+
 ul {
     list-style: none;
 }
@@ -49,4 +51,37 @@ header h1 {
 .nav-listaMenu li:hover {
     transition: 110ms;
     color: rgb(197, 197, 197);
+}
+
+/* CARROSSEL */
+
+.carrossel-container {
+    background-color: darkred;
+    margin: 50px;
+    text-align: center;
+}
+
+#produtos-container {
+    background-color: darkgreen;
+}
+
+#produtos-container h2 {
+    text-align: center;
+}
+
+#produtos-divStyle {
+    margin-top: 15px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto-child {
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.produto-child h6 {
+    margin-top: 10px;
 }
