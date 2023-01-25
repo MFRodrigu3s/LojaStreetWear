@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color:crimson;   
+}
+
+header h1 {
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 10px 0;
+}
+
+#main-container {
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+
+#nav-pesquisa {
+    background-color:darkslateblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+#input-pesquisa {
+    width: 30%;
+    text-align: center;
+}
+
+.nav-listaMenu {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    font-size: 1.32rem;
+}
+
+.nav-listaMenu li {
+    cursor: pointer;
+}
+
+.nav-listaMenu li:hover {
+    transition: 110ms;
+    color: rgb(197, 197, 197);
+}
