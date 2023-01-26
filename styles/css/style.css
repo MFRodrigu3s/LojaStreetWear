@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    color: aliceblue;
+}
+
 /* CABEÇALHO */
 
 ul {
@@ -17,12 +22,6 @@ header h1 {
     text-align: center;
     background-color: cornflowerblue;
     padding: 10px 0;
-}
-
-#main-container {
-    background-color: black;
-    color: aliceblue;
-    height: 100vh;
 }
 
 #nav-pesquisa {
@@ -53,13 +52,15 @@ header h1 {
     color: rgb(197, 197, 197);
 }
 
+/* FIM - CABEÇALHO */
+
 /* CARROSSEL */
 
-.carrossel-container {
-    background-color: darkred;
-    margin: 50px;
-    text-align: center;
-}
+
+
+/* FIM - CARROSSEL */
+
+/* PRODUTOS */
 
 #produtos-container {
     background-color: darkgreen;
