@@ -1,11 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    width: 100vw;
     height: 100vh;
     color: aliceblue;
+    background-color: black;
 }
 
 /* CABEÇALHO */
@@ -56,7 +59,73 @@ header h1 {
 
 /* CARROSSEL */
 
+#carrossel-container {
+    width: 80vw;
+    height: 75vh;
+    margin: 35px auto;
+    overflow: hidden;
+}
 
+#div-slidesEinputs {
+    background-color: bisque;
+    height: 90%;
+    overflow: hidden;
+    display: flex;
+    width: 300%;
+}
+
+#div-slidesEinputs input {
+    display: none;
+}
+
+#nav-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.label-nav {
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.label-nav:not(:last-child) {
+    margin-right: 20px;
+}
+
+.label-nav:hover{
+    transition: 0.3s;
+    background-color: rgb(128, 128, 128);
+}
+
+.slide {
+    width: 33.35%;
+    transition: 0.7s;
+}
+
+.slide img {
+    width: 100%;
+}
+
+#input1:checked ~ .s1 {
+    margin-left: 0px;
+}
+
+#input2:checked ~ .s1 {
+    margin-left: -33.35%;
+}
+
+#input3:checked ~ .s1 {
+    margin-left: -66.7%;
+}
 
 /* FIM - CARROSSEL */
 
