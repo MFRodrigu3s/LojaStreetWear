@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <title>Street Wear</title>
     <link rel="stylesheet" href="./styles/css/style.css">
 </head>
+
 <body>
     <section id="main-container">
-    <!-- CABEÇALHO -->
+        <!-- CABEÇALHO -->
         <header>
             <h1 id="titulo-marca">STREET WEAR</h1>
             <nav id="nav-pesquisa">
@@ -24,33 +26,33 @@
                 </ul>
             </nav>
         </header>
-    <!-- FIM DO CABEÇALHO -->
+        <!-- FIM DO CABEÇALHO -->
 
-     <!-- CARROSSEL -->
-        <div class="carrossel-container">
-            <input type="radio" name="input-slide" id="input1">
-            <input type="radio" name="input-slide" id="input2">
-            <input type="radio" name="input-slide" id="input3">
-            <div id="div-fotos-slide">
-                <div class="div-foto">
-                    <img src="" alt="">
+        <!-- CARROSSEL -->
+        <div id="carrossel-container">
+            <div id="div-slidesEinputs">
+                <input type="radio" name="input" id="input1" checked>
+                <input type="radio" name="input" id="input2">
+                <input type="radio" name="input" id="input3">
+                <div class="slide s1">
+                    <img src="./styles/fotos/img1.png" alt="">
                 </div>
-                <div class="div-foto">
-                    <img src="" alt="">
+                <div class="slide s2">
+                    <img src="./styles/fotos/img2.jpg" alt="">
                 </div>
-                <div class="div-foto">
-                    <img src="" alt="">
+                <div class="slide s3">
+                    <img src="./styles/fotos/img3.png" alt="">
                 </div>
             </div>
-            <div id="div-barNav">
-                <label for="input1" class="label-barNav"></label>
-                <label for="input1" class="label-barNav"></label>
-                <label for="input1" class="label-barNav"></label>
+            <div id="nav-label">
+                <label class="label-nav" for="input1"></label>
+                <label class="label-nav" for="input2"></label>
+                <label class="label-nav" for="input3"></label>
             </div>
         </div>
-    <!-- FIM DO CARROSSEL -->
+        <!-- FIM DO CARROSSEL -->
 
-    <!-- PRODUTOS -->
+        <!-- PRODUTOS -->
         <div id="produtos-container">
             <h2>O QUE VOCÊ PROCURA?</h2>
             <div id="produtos-divStyle">
@@ -80,7 +82,8 @@
                 </div>
             </div>
         </div>
-    <!-- FIM DA SEÇÃO DOS PRODUTOS -->
+        <!-- FIM DA SEÇÃO DOS PRODUTOS -->
     </section>
 </body>
+
 </html>
