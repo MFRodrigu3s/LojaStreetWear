@@ -131,17 +131,15 @@ header h1 {
 
 /* PRODUTOS */
 
-#produtos-container {
-    background-color: darkgreen;
-}
-
 #produtos-container h2 {
     text-align: center;
 }
 
 #produtos-divStyle {
-    margin-top: 15px;
-    background-color: goldenrod;
+    margin-top: 30px;
+    /* background-color: goldenrod; */
+    padding-left: 35px;
+    padding-right: 35px;
     display: flex;
     justify-content: space-around;
 }
@@ -149,9 +147,21 @@ header h1 {
 .produto-child {
     background-color: lightseagreen;
     text-align: center;
-    padding: 10px 10px;
+    padding: 20px 15px 5px 15px;
+    cursor: pointer;
+    border: 2px aliceblue solid;
+}
+
+.produto-child:hover {
+    transition: 0.4s;
+    opacity: 0.8;
 }
 
 .produto-child h6 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
+
+.foto-produtos {
+    width: 100px;
+}
+
